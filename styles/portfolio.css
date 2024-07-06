@@ -1,0 +1,91 @@
+
+/* Nav styles */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 200px;
+}
+/* font style */
+.open-sans-normal{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+  /* increasing mary */
+  .nav-title{
+   font-weight:800px;
+   font-size:45px ;
+  }
+/* color r */
+  .nav-color{
+    color: #FD6E0A;
+  }
+  /* remove nav ul dot */
+  nav ul li{
+   list-style: none;
+   margin: 51px;
+  }
+  /* remove nav underline */
+  nav li a{
+    text-decoration: none;
+    font-size: 20px;
+  }
+  /* font color */
+  .dark-2{
+    color: #474747;
+  }
+  /* move nav side */
+  nav ul{
+    display: flex;
+    align-items: center;
+  }
+  /* design button */
+  .btn-primay{
+background-color: #FD6E0A;
+font-weight: bold;
+font-size: 20px;
+color: white;
+padding: 18px 35px;
+border-radius: 5px;
+border: none;
+  }
+  /* design greetings font */
+  .banner-greet{
+font-size: 45px;
+font-weight: 600;
+  }
+  /* design banner title */
+  .banner-title{
+    font-weight: bold;
+    font-size: 85px;
+  }
+  /* design banner description */
+  .banner-description{
+    font-size: 18px;
+  }
+  /* design banner profile pic */
+  .banner-proile-pic{
+    width:580px;
+    height: 676;
+  }
+  /* move the profile pic side */
+  .banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 35px 0px 238px;
+  }
+  /* banner content width */
+.banner-content{
+  max-width: 585px;
+}
+/* background devloper pic & background image set */
+.back-dv-img{
+  background-image: url('../images/developer.png'), url('../images/header_bg.png');
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
+
+}
